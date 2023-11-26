@@ -1,7 +1,7 @@
-package discoDuroroer_3;
+package discoDuroRoer_3;
 
 /**
- * Rodolfo aravena
+ * Rodolfo Aravena
  */
 
 /**
@@ -13,10 +13,8 @@ public class ej_3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
 		String nombre = "Rodolfo";
-		System.out.println("Bienvenido ".concat(nombre));
-		
+		System.out.println("Bienvanido ".concat(nombre));
 	}
 
 }
