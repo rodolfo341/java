@@ -20,7 +20,7 @@ public class ej_5 {
 		
 		double radio = Double.parseDouble(JOptionPane.showInputDialog("Introduce el radio"));
 		
-		double area = PI * radio * Math.pow(radio, 2) ;
+		double area = PI * Math.pow(radio, 2) ;
 		
 		System.out.println("El area es " + area);
 		
