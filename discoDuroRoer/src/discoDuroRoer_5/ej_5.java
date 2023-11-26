@@ -16,11 +16,10 @@ public class ej_5 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		final double PI = 3.14159265358979323846;
-		
+				
 		double radio = Double.parseDouble(JOptionPane.showInputDialog("Introduce el radio"));
 		
-		double area = PI * Math.pow(radio, 2) ;
+		double area = Math.PI * Math.pow(radio, 2) ;
 		
 		System.out.println("El area es " + area);
 		
