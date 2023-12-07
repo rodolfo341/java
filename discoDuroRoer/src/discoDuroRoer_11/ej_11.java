@@ -9,7 +9,6 @@ public class ej_11 {
 			System.out.println(i);
 		}
 		
-		
 	}
 
 }
