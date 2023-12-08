@@ -1,5 +1,13 @@
 package discoDuroRoer_11;
 
+/**
+ * Rodolfo Aravena
+ */
+
+/**
+ * Muestra los números del 1 al 100 (ambos incluidos). Usa un bucle for.  
+ */
+
 public class ej_11 {
 
 	public static void main(String[] args) {
