@@ -17,17 +17,21 @@ public class ej_19 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		char res;
-		
+		int cifras;
 		int num;
 		
 		do {
-			System.out.println("Ingrese N: ");
+			cifras = 1;
 			do {
+				System.out.println("Ingrese N: ");
 				num = sc.nextInt();				
 			} while (num < 0);
 			
-			
-			
+			while( num >= 10) {
+				num /= 10;
+				cifras++;
+			}
+			System.out.println("cifras = " + cifras);
 			
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
 		} while (Character.toUpperCase(res) == 'S');
