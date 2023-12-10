@@ -18,13 +18,20 @@ public class ej_20 {
 		Scanner sc = new Scanner(System.in);
 		char res;
 		int num;
+		boolean esPrimo = true;
 
 		do {
 			do {
 				System.out.println("Ingrese numero");num = sc.nextInt();				
 			} while ( num <= 1 );
 			
+			for(int i = 2; i<= Math.sqrt(num);i++) {
+				if( num % i == 0 ) esPrimo = false;
+				else esPrimo = true;
+			}
 			
+			if ( esPrimo == true ) System.out.println("es primo");
+			else System.out.println("no es primo");
 			
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
 		} while (Character.toUpperCase(res) == 'S');
