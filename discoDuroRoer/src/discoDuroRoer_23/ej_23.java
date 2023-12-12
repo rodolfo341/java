@@ -14,6 +14,7 @@ public class ej_23 {
 
 		do {
 			
+			
 			System.out.print("¿Desea continuar? (S/N): "); res = sc.next().charAt(0);
 		} while (Character.toUpperCase(res) == 'S');
 
