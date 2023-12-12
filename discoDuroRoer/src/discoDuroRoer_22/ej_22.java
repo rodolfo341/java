@@ -1,4 +1,4 @@
-package discoDuroRoer22;
+package discoDuroRoer_22;
 
 import java.util.Scanner;
 /**
